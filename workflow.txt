@@ -1,0 +1,6 @@
+Workflow:
+	MindMap
+		O que vai ser feito, ferramentas, sequência, etc.
+	(Trello)
+	Wireframes
+		Forma do site, páginas, conteúdos, etc.
