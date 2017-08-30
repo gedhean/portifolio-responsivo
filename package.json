@@ -1,0 +1,23 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "creating a portifolio web pag",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedhean/portifolio-responsivo.git"
+  },
+  "author": "gedhean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gedhean/portifolio-responsivo/issues"
+  },
+  "homepage": "https://github.com/gedhean/portifolio-responsivo#readme"
+}
