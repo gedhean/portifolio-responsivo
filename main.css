@@ -1,0 +1,88 @@
+  /*reset defaults configs*/
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+	background-color: floralwhite;
+}
+
+.header h1{
+  text-align: left;
+	display: inline;
+	margin-left: 60px;
+}
+
+.my-name {
+  background-color: rgba(0, 0 , 0, 0.9);
+  padding: 15px 0 15px 0;
+  font-size: 35px;
+  font-weight: bold;
+	color: azure;
+}
+
+.header ul {
+	list-style-type: none;
+	float: right;
+	margin-right: 60px;
+}
+
+.header li {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 22px;
+	margin-right: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: brown;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: cornflowerblue;
+}
+
+.description {
+  font-size: 22px;
+  padding: 20px 0 20px 0;
+  background-color: #888;
+  color: aliceblue;
+}
+
+.description h2 {
+  font-weight: 100;
+  margin: 0 350px 0 350px;
+}
+h3 {
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid red;
+	width: 700px;	 
+	margin: 20px auto 20px auto;
+}
+.projects ul {
+	list-style-type: none; /*remove the dots*/
+	width: 500px;
+	margin: 0 auto;
+}
+.projects li {
+	margin: 10px 0;
+}

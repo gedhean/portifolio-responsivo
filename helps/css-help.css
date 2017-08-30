@@ -1,0 +1,6 @@
+* {
+	box-sizing: border-box; /*height and width will be fixed*/
+	display: inline-block; /*display elements as inline-lvl, but keep inside formatted as block-lvl*/
+	background-color: deepskyblue;
+}
+
