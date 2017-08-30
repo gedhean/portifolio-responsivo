@@ -4,3 +4,5 @@ Workflow:
 	(Trello)
 	Wireframes
 		Forma do site, páginas, conteúdos, etc.
+	gulp
+		últil para criação de tasks (js) para compilar css e js
