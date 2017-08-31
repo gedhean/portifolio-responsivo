@@ -1,8 +1,12 @@
 Workflow:
-	MindMap
+	MindMap:
 		O que vai ser feito, ferramentas, sequência, etc.
-	(Trello)
-	Wireframes
+	
+	(Trello):
+	
+	Wireframes:
 		Forma do site, páginas, conteúdos, etc.
-	gulp
-		últil para criação de tasks (js) para compilar css e js
+	
+	gulp:
+		últil para criação de tasks automáticas (com js) para compilar css, js, etc.
+		
