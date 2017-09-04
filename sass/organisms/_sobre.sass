@@ -26,6 +26,8 @@ main
 		+justify-content(space-around)
 		text-align: center
 		margin: 100px 0
+		+breakpoint($tablet)
+			display: block
 		p
 			font-size: 18px
 			padding: 0
@@ -42,4 +44,7 @@ main
 			min-width: 131px
 			height: 155px
 			border: 1px solid #000
+			+breakpoint($tablet)
+				display: inline-block
+				margin: 8px
 			
