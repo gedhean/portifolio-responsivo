@@ -18,29 +18,33 @@ main
 		padding: 80px
 		border: 1px solid #000
 		font-weight: 100
+		+breakpoint($celular)
+			margin: 40px 0 
+			padding: 70px
 	.itens
-		padding: 10px
-		margin: 20px
+		+flexbox
+		+justify-content(space-around)
+		text-align: center
+		margin: 100px 0
+		+breakpoint($tablet)
+			display: block
 		p
-			text-align: center
 			font-size: 18px
 			padding: 0
-			margin: 0
+			margin: 22px 0 0 0
 			border: 0
 		i
-			margin: 40px 40px 10px 50px
 			font-size: 50px
-			text-align: center
-			position: relative
+			margin-top: 24px
 		.pencil,
 		.book,
 		.code,
 		.coffee
-			float: left
 			width: 155px
+			min-width: 131px
 			height: 155px
-			display: inline-block
-			margin: 55px
 			border: 1px solid #000
-		+clearfix
+			+breakpoint($tablet)
+				display: inline-block
+				margin: 8px
 			
