@@ -31,6 +31,8 @@ form
 		+make-sm-column(6)
 	.col1
 		padding-left: 0
+		+breakpoint($celular)
+			padding-right: 0
 	.col2
 		padding-right: 0
 		padding-left: 0
@@ -44,6 +46,8 @@ form
 			border-color: rgba(0,220,0,0.7)
 		&:focus
 			border-color: #15da15
+	textarea
+		height: 230px
 
 	button
 		font-weight: bold
