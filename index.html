@@ -8,6 +8,7 @@
 	<title>Gêdhean Alves</title>
 	<link rel="stylesheet" href="css/geral.css">
 	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
 	<link rel="stylesheet" href="css/plugins.css"> <!--call boostrap and font-awesome-->
 		
 </head>
@@ -18,8 +19,8 @@
 			<div class="logo">
 				<a href="index.html"><img src="images/logo-wolf.jpg" alt="Logo Wolf"></a>
 			</div>
-
-			<div class="nav-bar">
+			
+			<div class="nav-bar wow slideInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -28,10 +29,10 @@
 						<li><a href="contato.html">Contact</a></li>
 					</ul>
 				</nav>
-				
 			</div>
 
-			<h1 class="name"><strong>Gêdhean Alves</strong></h1>
+			
+			<h1 class="animated pulse"><strong>Gêdhean Alves</strong></h1>
 
 		</div>
 	</header>
@@ -39,19 +40,19 @@
 		<div class="container">
 			<div class="itens">
 				<div class="pencil">
-					<i class="fa fa-pencil"></i>
+					<i class="fa fa-pencil wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
 					<p>Teach someone</p>
 				</div>
 				<div class="book">
-					<i class="fa fa-book"></i>
+					<i class="fa fa-book wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
 					<p>Learn every day</p>
 				</div>
 				<div class="code">
-					<i class="fa fa-code"></i>
+					<i class="fa fa-code wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
 					<p>Code solutions</p>
 				</div>
 				<div class="coffee">
-					<i class="fa fa-resistance"></i>
+					<i class="fa fa-resistance wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
 					<p>Be a Jedi o/</p>
 				</div>
 			</div>
@@ -65,12 +66,14 @@
 		</div>
 	</main>
 	<footer>
-
 		<div class="ft-logo">
 			<a href="index.html"><img src="images/ft-logo.jpg" alt="Logo footer"></a>
 			<p>&copy; All Rights Reserved</p>
 		</div>
-
 	</footer>
+	<script src="bower_components/wow/dist/wow.min.js"></script>
+		<script>
+		new WOW().init();
+	</script>
 </body>
 </html>

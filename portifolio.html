@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="bower_components/imagehover.css/css/imagehover.css">
 	<link rel="stylesheet" href="css/geral.css">
 	<link rel="stylesheet" href="css/portifolio.css">
+	<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
 	<link rel="stylesheet" href="css/plugins.css"> <!--call boostrap and font-awesome-->	
 </head>
 <body>
@@ -19,7 +20,7 @@
 				<a href="index.html"><img src="images/logo-wolf.jpg" alt="Logo Wolf"></a>
 			</div>
 			
-			<div class="nav-bar">
+			<div class="nav-bar wow slideInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
@@ -30,7 +31,7 @@
 				</nav>
 			</div>
 			
-			<h1 class="name"><strong>Gêdhean Alves</strong></h1>
+			<h1 class="animated pulse"><strong>Gêdhean Alves</strong></h1>
 			
 		</div>
 	</header>
@@ -98,5 +99,9 @@
 		</div>
 
 	</footer>
+	<script src="bower_components/wow/dist/wow.min.js"></script>
+		<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
