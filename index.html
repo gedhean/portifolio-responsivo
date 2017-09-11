@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,73 +9,211 @@
 	<title>Gêdhean Alves</title>
 	<link rel="stylesheet" href="css/geral.css">
 	<link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="css/portifolio.css">
+	<link rel="stylesheet" href="css/contato.css">
+	<link rel="stylesheet" href="css/sobre.css">
 	<link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
-	<link rel="stylesheet" href="css/plugins.css"> <!--call boostrap and font-awesome-->
-		
+	<link rel="stylesheet" href="css/plugins.css">
+	<!--call boostrap and font-awesome-->
+
 </head>
-<body>
+
+<body id="top-site">
 	<header>
 		<div class="container" id="top">
-
 			<div class="logo">
 				<a href="index.html"><img src="images/logo-wolf.jpg" alt="Logo Wolf"></a>
 			</div>
-			
-			<div class="nav-bar wow slideInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
+			<div class="nav-menu wow slideInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="sobre.html">About</a></li>
-						<li><a href="portifolio.html">Portfolio</a></li>
-						<li><a href="contato.html">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
-
-			
-			<h1 class="animated pulse"><strong>Gêdhean Alves</strong></h1>
-
 		</div>
+		<h1 class="animated infinite fadeIn"><strong>Gêdhean</strong> A. <strong>Vieira</strong></h1>
+		<h2>Working...</h2>
+
 	</header>
 	<main>
 		<div class="container">
-			<div class="itens">
-				<div class="pencil">
-					<i class="fa fa-pencil wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
-					<p>Teach someone</p>
+			<section id="about">
+				<div class="itens">
+					<div class="pencil">
+						<i class="fa fa-pencil wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
+						<p>Teach someone</p>
+					</div>
+					<div class="book">
+						<i class="fa fa-book wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
+						<p>Learn every day</p>
+					</div>
+					<div class="code">
+						<i class="fa fa-code wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
+						<p>Code solutions</p>
+					</div>
+					<div class="coffee">
+						<i class="fa fa-resistance wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
+						<p>Be a Jedi o/</p>
+					</div>
 				</div>
-				<div class="book">
-					<i class="fa fa-book wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
-					<p>Learn every day</p>
-				</div>
-				<div class="code">
-					<i class="fa fa-code wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
-					<p>Code solutions</p>
-				</div>
-				<div class="coffee">
-					<i class="fa fa-resistance wow flipInY" data-wow-duration="1s" data-wow-delay="1s"></i>
-					<p>Be a Jedi o/</p>
-				</div>
-			</div>
 
-			<hr>
-			<h2 class="wow slideInLeft">About me</h2>
-			<hr>
-			
-			<p>I'm learning <strong>Front End Development</strong> and studying <strong>computerbounceInLeftneering</strong>. I like <strong>coding</strong> and <strong>creating</strong> new things. My three words are <strong>LEARN</strong>, <strong>BUILD</strong> and <strong>SHARE</strong> . I love it!  
-			</p>
+				<hr>
+				<h2 class="wow slideInLeft">About me</h2>
+				<hr>
+
+				<p>I'm learning <strong>Front End Development</strong> and studying <strong>computer engineering</strong>. I like <strong>coding</strong> and <strong>creating</strong> new things. My three words are <strong>LEARN</strong>, <strong>BUILD</strong> and <strong>SHARE</strong> . I love it!
+				</p>
+
+				<hr>
+				<h2 class="wow slideInLeft" id="skills">Skills</h2>
+				<hr>
+
+				<ul class="skills">
+					<li class="skill-1">
+						<h2>
+							<img src="images/html5.svg" alt="HTML5"><strong>HTML5 - 70%</strong>
+							<div class="bar"><span></span></div>
+						</h2>
+					</li>
+					<li class="skill-2">
+						<h2>
+							<img src="images/css3.svg" alt="CSS3"><strong>CSS3 - 60%</strong>
+							<div class="bar"><span></span></div>
+						</h2>
+					</li>
+					<li class="skill-3">
+						<h2>
+							<img src="images/js.svg" alt="JavaScript"><strong>JavaScript - 30%</strong>
+							<div class="bar"><span></span></div>
+						</h2>
+					</li>
+					<li class="skill-4">
+						<h2>
+							<img src="images/git2.svg" alt="Git"><strong>Git - 40%</strong>
+							<div class="bar"><span></span></div>
+						</h2>
+					</li>
+				</ul>
+			</section>
+			<section id="portfolio">
+				<hr>
+				<h2 class="wow slideInLeft" id="portifolio">Portfolio</h2>
+				<hr>
+
+				<ul>
+					<li>
+						<figure class="imghvr-zoom-in">
+							<img src="http://placehold.it/400x250" alt="tab">
+							<figcaption>
+								<a href="#">
+									<h3>IMage Name</h3>
+									<p>Hover Effect</p>
+								</a>
+								<div class="overlay">
+
+								</div>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure class="imghvr-zoom-in">
+							<img src="http://placehold.it/400x250" alt="tab">
+							<figcaption>
+								<a href="#">
+									<h3>IMage Name</h3>
+									<p>Hover Effect</p>
+								</a>
+								<div class="overlay">
+
+								</div>
+							</figcaption>
+						</figure>
+					</li>
+					<li>
+						<figure class="imghvr-zoom-in">
+							<img src="http://placehold.it/400x250" alt="tab">
+							<figcaption>
+								<a href="#">
+									<h3>IMage Name</h3>
+									<p>Hover Effect</p>
+								</a>
+								<div class="overlay">
+
+								</div>
+							</figcaption>
+						</figure>
+					</li>
+				</ul>
+			</section>
 		</div>
+		<section class="contato" id="contact">
+			<div class="container">
+				<hr>
+				<h2 class="wow slideInLeft" id="contact">Contact me</h2>
+				<hr>
+
+				<form>
+					<div class="col1">
+						<div class="form-group">
+							<input type="text" placeholder="Name" required>
+						</div>
+					</div>
+					<div class="col2">
+						<div class="form-group">
+							<input type="email" placeholder="Email" required>
+						</div>
+					</div>
+					<div class="col1">
+						<div class="form-group">
+							<input type="tel" placeholder="Phone">
+						</div>
+					</div>
+					<div class="col2">
+						<div class="form-group">
+							<input type="text" placeholder="Topic">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<textarea placeholder="Your question here"></textarea>
+					</div>
+
+					<div class="form-group">
+						<button class="">Submit</button>
+					</div>
+				</form>
+			</div>
+		</section>
 	</main>
 	<footer>
 		<div class="ft-logo">
+			<ul>
+				<a href="https://www.linkedin.com/in/gedhean/" target="_blank">
+					<li><i class="fa fa-linkedin-square"></i></li>
+				</a>
+				<a href="https://github.com/gedhean" target="_blank">
+					<li><i class="fa fa-github-alt"></i></li>
+				</a>
+				<a href="mailto:gedhean1@gmail.com" target="_blank">
+					<li><i class="fa fa-envelope-o"></i></li>
+				</a>
+			</ul>
+
 			<a href="index.html"><img src="images/ft-logo.jpg" alt="Logo footer"></a>
 			<p>&copy; All Rights Reserved</p>
+			
 		</div>
 	</footer>
 	<script src="bower_components/wow/dist/wow.min.js"></script>
-		<script>
+	<script>
 		new WOW().init();
+
 	</script>
-	<a href="#top"><i class="fa fa-arrow-up" id="go-top"></i></a>
+	<a href="#top-site"><i class="fa fa-arrow-up" id="go-top"></i></a>
 </body>
+
 </html>
